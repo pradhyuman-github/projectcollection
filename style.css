@@ -1,0 +1,24 @@
+body {
+    background-color:darkgrey;
+}
+
+.box {
+    display: grid;
+    grid-template-columns: repeat(2, 10rem);
+    gap: 2rem;
+    justify-self: center;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: white;
+}
